@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8282e4-8434-406d-9a86-48af90a8c965" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_feature_extraction.py" afterPath="$PROJECT_DIR$/train_feature_extraction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train_feature_extraction_solution.py" afterPath="$PROJECT_DIR$/train_feature_extraction_solution.py" />
     </list>
     <ignored path="CarND-Alexnet-Feature-Extraction.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="train_feature_extraction.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="train_feature_extraction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/train_feature_extraction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="160">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -36,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train_feature_extraction_solution.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="train_feature_extraction_solution.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train_feature_extraction_solution.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+            <state relative-caret-position="130">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="62" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -104,8 +102,8 @@
       <list>
         <option value="$PROJECT_DIR$/traffic_sign_inference.py" />
         <option value="$PROJECT_DIR$/feature_extraction.py" />
-        <option value="$PROJECT_DIR$/train_feature_extraction.py" />
         <option value="$PROJECT_DIR$/train_feature_extraction_solution.py" />
+        <option value="$PROJECT_DIR$/train_feature_extraction.py" />
       </list>
     </option>
   </component>
@@ -145,7 +143,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.train_feature_extraction_solution">
+  <component name="RunManager" selected="Python.train_feature_extraction">
     <configuration default="false" name="traffic_sign_inference" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,8 +372,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.train_feature_extraction_solution" />
-        <item index="1" class="java.lang.String" itemvalue="Python.train_feature_extraction" />
+        <item index="0" class="java.lang.String" itemvalue="Python.train_feature_extraction" />
+        <item index="1" class="java.lang.String" itemvalue="Python.train_feature_extraction_solution" />
         <item index="2" class="java.lang.String" itemvalue="Python.feature_extraction_solution" />
         <item index="3" class="java.lang.String" itemvalue="Python.feature_extraction" />
         <item index="4" class="java.lang.String" itemvalue="Python.traffic_sign_inference" />
@@ -403,7 +401,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -544,20 +542,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_feature_extraction.py">
+    <entry file="file://$PROJECT_DIR$/train_feature_extraction_solution.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="130">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="62" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_feature_extraction_solution.py">
+    <entry file="file://$PROJECT_DIR$/train_feature_extraction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="64" column="46" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
+        <state relative-caret-position="160">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>

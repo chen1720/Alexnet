@@ -45,7 +45,7 @@ prob = tf.nn.softmax(logits)
 # TODO: Define loss, training, accuracy operations.
 # HINT: Look back at your traffic signs project solution, you may
 # be able to reuse some the code.
-cross_entropy = tf.nn.softmax_cross_entropy_with_logits(logits=logits, labels=label)
+cross_entropy = tf.nn.sparse_softmax_cross_entropy_with_logits(logits=logits, labels=label)
 loss_operation = tf.reduce_mean(cross_entropy)
 optimizer = tf.train.AdamOptimizer()
 training_operation = optimizer.minimize(loss_operation)
