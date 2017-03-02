@@ -62,7 +62,8 @@ with tf.Session() as sess:
         t0 = time.time()
         for offset in range(0, X_train.shape[0], batch_size):
             end = offset + batch_size
-            sess.run(train_op, feed_dict={features: X_train[offset:end], labels: y_train[offset:end]})
+            print(X_train[offset:end].shape[0])
+            # sess.run(train_op, feed_dict={features: X_train[offset:end], labels: y_train[offset:end]})
 
         val_loss, val_acc = eval_on_data(X_val, y_val, sess)
         print("Epoch", i+1)
