@@ -5,6 +5,8 @@ import pandas as pd
 from scipy.misc import imread
 from alexnet import AlexNet
 
+net_data = np.load("bvlc-alexnet.npy", encoding="latin1").item()
+
 sign_names = pd.read_csv('signnames.csv')
 nb_classes = 43
 
@@ -14,12 +16,18 @@ resized = tf.image.resize_images(x, (227, 227))
 # NOTE: By setting `feature_extract` to `True` we return
 # the second to last layer.
 fc7 = AlexNet(resized, feature_extract=True)
+shape = (fc7.get_shape().as_list()[-1], nb_classes)  # use this shape for the weight matrix
+
 # TODO: Define a new fully connected layer followed by a softmax activation to classify
+
+fc8W = tf.Variable(tf.truncated_normal(shape, stddev=1e-2))
+fc8b = tf.Variable(tf.zeros(nb_classes))
+logits = tf.nn.xw_plus_b(fc7, fc8W, fc8b)
 # the traffic signs. Assign the result of the softmax activation to `probs` below.
 # HINT: Look at the final layer definition in alexnet.py to get an idea of what this
 # should look like.
-shape = (fc7.get_shape().as_list()[-1], nb_classes)  # use this shape for the weight matrix
-probs = ...
+
+probs = tf.nn.softmax(logits)
 
 init = tf.global_variables_initializer()
 sess = tf.Session()
